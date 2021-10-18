@@ -1,0 +1,28 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+section
+{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Ff49bc1bb-8634-4e59-a74d-81ac2de20bfc%2F제목_없는_아트워크.gif?table=block&id=86ed5c68-7838-49bf-89ab-f330e8aabde5&spaceId=3e0edc7b-47f6-4ffd-a394-d80cbc97a8cd&userId=ba262a93-9f5a-42ea-a880-ad86d98881ef&cache=v2");
+    background-repeat: no-repeat;
+    background-size: 1000px 699px;
+}
+
+canvas
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-image: url("https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fbfb56d9c-b9cf-4265-96f2-f9a1ec5e778a%2F제목_없는_아트워크_59.png?table=block&id=89164bc7-fb20-4010-9205-848b064c7f4a&spaceId=3e0edc7b-47f6-4ffd-a394-d80cbc97a8cd&width=2000&userId=ba262a93-9f5a-42ea-a880-ad86d98881ef&cache=v2");
+    background-size: 1000px 699px;
+    z-index: 2;
+    mix-blend-mode: screen;
+}
